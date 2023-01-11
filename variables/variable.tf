@@ -70,23 +70,34 @@ output "boolean1" {
 output "list4"{
   value = var.list[0]
 }
-
+output "list444"{
+  value = element(var.list, 0)
 
 #refering list data type witn index type number
 output "list5"{
   value = var.list[1]
 }
 
+output "list55"{
+  value = element(var.list, 1)
+
 #refering list data type with boolean type
 output "list6"{
   value = var.list[2]
 }
 
+output "list66"{
+  value = element(var.list, 2)
+}
 
 #refer map variable with index type string key value
 
 output "map4"{
   value = var.map1["string"]
+}
+
+output "map44"{
+  value = lookup(var.map1,"string", null)
 }
 
 
