@@ -70,17 +70,17 @@ output "boolean1" {
 output "list4"{
   value = var.list[0]
 }
-output "list444"{
+output "list444" {
   value = element(var.list, 0)
-
+}
 #refering list data type witn index type number
 output "list5"{
   value = var.list[1]
 }
 
-output "list55"{
+output "list55" {
   value = element(var.list, 1)
-
+}
 #refering list data type with boolean type
 output "list6"{
   value = var.list[2]
