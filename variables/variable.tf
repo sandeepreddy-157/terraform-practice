@@ -87,8 +87,6 @@ output "list6"{
 
 output "map4"{
   value = var.map1["string"]
-  value = var.map1["number"]
-  value = var.map1["boolean"]
 }
 
 
