@@ -87,7 +87,6 @@ output "list6"{
 
 output "map4"{
   value = var.map1["string"]
-  great = var.map1["number"]
 }
 
 
