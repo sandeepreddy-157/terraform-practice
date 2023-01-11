@@ -13,7 +13,7 @@ output "sample" {
 }
 
 #string variable type
-variable "sample1" {
+variable "sample0" {
   default = "hello string"
 }
 
@@ -50,7 +50,7 @@ variable "map1" {
 #refering string data type
 
 output "string1" {
-  value = var.sample1
+  value = var.sample0
 }
 
 
