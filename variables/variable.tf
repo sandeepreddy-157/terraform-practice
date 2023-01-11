@@ -53,12 +53,34 @@ output "string1" {
   value = var.sample0
 }
 
+#refering number data type
+
+output "number2"{
+  value = var.sample2
+}
+
+#refereing boolean data type
+
+output "boolean1" {
+  value = var.sample3
+}
+
+#refering list data type with index type string
+
+output "list4"{
+  value = var.list[0]
+}
 
 
+#refering list data type witn index type number
+output "list5"{
+  value = var.list[1]
+}
 
-
-
-
+#refering list data type with boolean type
+output "list6"{
+  value = var.list[2]
+}
 
 
 
