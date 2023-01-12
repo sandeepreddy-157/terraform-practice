@@ -100,8 +100,11 @@ output "map44"{
   value = lookup(var.map1,"string", null)
 }
 
+variable "fruits" {}
 
-
+output "fruitsnames"{
+  value= var.fruits
+}
 
 
 
