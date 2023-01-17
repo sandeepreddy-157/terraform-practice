@@ -102,11 +102,18 @@ output "map44"{
 
 variable "fruits" {}
 
-output "fruitsnames"{
+output "fruitnames"{
   value= var.fruits
 }
 
+variable "countries"{
+  default = "default india"
+}
 
+
+output "countrynames" {
+  value= var.countries
+}
 
 
 

@@ -1,1 +1,3 @@
-fruits= ["kiwi","other fruits"]
+fruits= ["kiwi","otherfruits"]
+
+#countries= ["country india from autofiles"]
