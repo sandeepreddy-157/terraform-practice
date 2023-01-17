@@ -6,6 +6,7 @@ terraform {
   }
 }
 
+
 variable "sample"{
  default = "hello"
 }
