@@ -13,7 +13,7 @@ output "public_ip" {
 
 variable "amis"  {
   default = [
-  "ami-0a017d8ceb274537d"
+  "ami-0a017d8ceb274537d",
   "ami-0bb6af715826253bf"
   ]
 }
