@@ -21,7 +21,7 @@ variable "amis"  {
 resource "aws_instance" "test2"{
   count = length(var.amis)
   ami = var.amis(count.index)
-  //ami = element(var.amis, count.index)
+# ami = element(var.amis, count.index)
   instance_type = "t2.micro"
   tags = {
     Name = "amis-${count.index}"
