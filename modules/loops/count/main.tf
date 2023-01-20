@@ -27,3 +27,5 @@ resource "aws_instance" "test2"{
     Name = "amis-${count.index}"
   }
 }
+
+
